@@ -14,7 +14,7 @@ public static void main(String[] args) {
 
 		ArrayHelper.print(array);
 		
-		//this array stores the amount of every number
+		//this array stores the amount of every digit
 		//for example, if the number 10 appears 2 times in the array[]
 		//then the count[10] = 2
 		int []count = new int[max];
@@ -22,13 +22,13 @@ public static void main(String[] args) {
 			count[array[i]]++;
 		}
 		
-		//for example, if count[i] = j, it means that there are numbers less than or equal to i
-		//and the amount of these number is j
+		//for example, if count[i] = j, it means that there are digits less than or equal to i
+		//and the amount of these digits is j
 		for (int i = 1; i < count.length; i++) {
 			count[i] = count[i]+count[i-1];
 		}
 		
-		//deposit the number from the array[] to the array_sorted[] according to the amount of this number
+		//deposit the digit from the array[] to the array_sorted[] according to the amount of this digit
 		int array_sorted[] = new int[20];
 		for (int i = 0; i < array.length; i++) {
 			

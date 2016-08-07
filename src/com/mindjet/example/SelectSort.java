@@ -12,7 +12,7 @@ public class SelectSort {
 		int min = 0;
 		for (int i = 0; i < array.length - 1; i++) {
 			
-			min = i;	//assume that min is the index of the minimum
+			min = i;	//min is the index of the minimum, we assume it is the first index at the beginning of every round
 			
 			for (int j = i+1; j < array.length; j++) {
 				
