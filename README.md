@@ -6,4 +6,5 @@ Some classic <strong>sorting methods</strong> in Data Structure are implemented 
 * [Select Sorting](https://github.com/Mindjet/Sorting/blob/master/src/com/mindjet/example/SelectSort.java)
 * [Insert Sorting](https://github.com/Mindjet/Sorting/blob/master/src/com/mindjet/example/InsertSort.java)
 * [Counting Sorting](https://github.com/Mindjet/Sorting/blob/master/src/com/mindjet/example/CountingSort.java)
-* [Quick Sorting](src\com\mindjet\example\QuickSort.java)
+* [Quick Sorting](https://github.com/Mindjet/Sorting/blob/master/src/com/mindjet/example/QuickSort.java)
+* [Heap Sorting](https://github.com/Mindjet/Sorting/blob/master/src/com/mindjet/example/HeapSort.java)
